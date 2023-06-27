@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar App</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="top">
+            <div class="logo">
+                <!-- <i class="bx bxl-codepen"></i> -->
+                <i class='bx bxs-pie-chart-alt-2'></i>
+                <span>JobFreak</span>
+
+            </div>
+            <i class="bx bx-menu" id="btn"></i>
+
+            <div class="user">
+                <img src="user-img.png" alt="user" class="user-img">
+                <p class="bold">Sharon Dhawan</p>
+                <!-- <p>Admin</p> -->
+            </div>
+            <ul>
+                <li>
+                    <a href="#" onclick="showContent('home')">
+                        <i class='bx bxs-home'></i>
+                        <span class="nav-item">Home</span>
+                    </a>
+                    <span class="hover-item">Home</span>
+                </li>
+                <li>
+                    <a href="#" onclick="showContent('contact')">
+                        <i class='bx bxs-contact'></i>
+                        <span class="nav-item">Contact</span>
+                    </a>
+                    <span class="hover-item">Contact</span>
+                </li>
+                <li>
+                    <a href="#" onclick="showContent('information')">
+                        <i class='bx bx-info-circle'></i>
+                        <span class="nav-item">Information</span>
+                    </a>
+                    <span class="hover-item">Information</span>
+                </li>
+                <li>
+                    <a href="#" onclick="showContent('guide')">
+                        <i class='bx bx-help-circle'></i>
+                        <span class="nav-item">Guide</span>
+                    </a>
+                    <span class="hover-item">Guide</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <!-- <div class="container">
+            <h1>Hello World!</h1>
+        </div> -->
+        <div id="content">
+            <div id="home">
+                <h1>Home</h1>
+                <h2>Welcome to the home page!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quia vel odit, cumque quis fugit.
+                    Quae, maxime inventore deleniti expedita molestias quibusdam corrupti autem vero, architecto nihil
+                    beatae quam enim.
+                    Amet ad voluptatum ex voluptatibus. Minima, accusantium ex quisquam sit animi natus, reprehenderit
+                    voluptates earum dicta architecto a dignissimos repellat assumenda, consequuntur laudantium ratione.
+                    Corrupti dolore quas possimus nulla minima.
+                    Odit delectus fugiat accusamus at doloribus aliquid, perferendis minima consequatur labore quam
+                    architecto harum recusandae eveniet amet modi aliquam quidem sed, vel, eum ut corrupti? Tempore
+                    suscipit modi assumenda mollitia!
+                    Assumenda, molestias quam inventore harum illo perspiciatis cupiditate repellat quidem quis officia
+                    maiores quos at nobis? Culpa laboriosam, ut reiciendis soluta deleniti quam vitae? Quaerat, soluta!
+                    Vero molestiae similique laborum!
+                    Quam, fugit ut hic porro, voluptatum dolor ipsam laborum aspernatur tempora doloremque in optio
+                    ipsum officia, incidunt nam reiciendis. Minus vero doloribus nulla, harum voluptatum animi aliquid
+                    molestiae et labore?
+                    Nisi, culpa! Iusto architecto ratione facere unde qui corporis placeat impedit eius quia est.
+                    Inventore illo repudiandae praesentium atque? Odit tempore qui veniam cumque officiis beatae ad
+                    labore error autem.
+                    Dolores numquam ut hic pariatur a, rerum eum neque, quam deserunt nisi adipisci, assumenda aut
+                    debitis asperiores ullam aliquid quae sed temporibus modi? Autem sapiente nihil, corporis commodi
+                    error doloremque!
+                    Praesentium accusantium iste fugiat tenetur, ipsam rerum porro nulla! Sed labore voluptas molestiae,
+                    aperiam distinctio corrupti nihil quos nam error sunt quidem nobis necessitatibus inventore rerum
+                    possimus neque officia nisi.
+                    Dolorum minima mollitia hic, adipisci laudantium expedita nobis explicabo officia distinctio cum
+                    illo at quam consequuntur repudiandae aspernatur, a harum. Quasi impedit qui ratione reprehenderit
+                    voluptas assumenda non praesentium officiis!
+                    Quae, distinctio. Beatae quidem sint voluptatibus vitae deserunt ducimus odit facere fugit molestiae
+                    molestias quibusdam hic sequi minus veniam, eveniet exercitationem officia nesciunt pariatur a
+                    sapiente blanditiis voluptate nisi magnam.</p>
+            </div>
+            <div id="contact">
+                <h1>Contact</h1>
+                <p>Name: Sharon Dhawan</p>
+                <p>Contact No: <a href="#">6283190064</a></p>
+                <p>My Socials:
+                <ul>
+                    <li><a href="#" class="social">Github</a></li>
+                    <li><a href="#" class="social">LinkedIn</a></li>
+                </ul>
+                </p>
+            </div>
+            <div id="information">
+                <h1>Information</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta quae vel delectus totam minima
+                    deleniti iure sint asperiores suscipit aspernatur, aperiam recusandae rem enim optio nihil et id
+                    quibusdam mollitia!
+                    Facere voluptas nobis debitis illum facilis? Consectetur suscipit vel ex soluta accusantium ullam
+                    saepe? Veritatis natus aperiam dicta praesentium illum voluptas porro iste, sapiente quas odit ex
+                    explicabo illo facilis?
+                    Soluta autem asperiores iste in quasi similique? Dolore in ipsam ullam doloribus atque vitae? Enim
+                    officia impedit magni aliquid illum labore numquam! Quia, voluptatum odit. Blanditiis nobis mollitia
+                    commodi laborum.
+                    Eaque a nihil deleniti rem veniam illum dolor eligendi. Est harum nemo doloribus id ipsam dicta
+                    quaerat blanditiis odio! Eveniet, placeat eaque. Autem numquam ipsum eos dolorem, aperiam beatae
+                    vero?
+                    Sequi minima ratione nobis dolor laborum, veniam quas vel non tempora fugiat blanditiis eum?
+                    Expedita eligendi est ducimus ullam at corrupti quia, omnis dolores itaque voluptas voluptatem
+                    obcaecati et mollitia.</p>
+            </div>
+            <div id="guide">
+                <h1>Guide</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, accusantium necessitatibus! Id
+                    consequatur numquam, saepe quae tenetur vitae atque, quos modi dicta illo minus iusto molestias eum
+                    autem impedit quis!
+                    Eligendi amet accusantium nulla eum doloribus sequi voluptas minima ullam possimus quis repudiandae,
+                    maxime facere commodi, sed, dicta unde. Consequuntur iste laborum quas! Aut rem consequuntur minus
+                    dolorum adipisci? Magnam.
+                    Quibusdam, est, repellat illo rem vero voluptatibus reiciendis aliquam dolorum illum reprehenderit
+                    cupiditate eaque corporis dolores! Ullam ducimus dicta sunt aut hic inventore quis optio nisi. Sed
+                    nihil tempore rerum!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
